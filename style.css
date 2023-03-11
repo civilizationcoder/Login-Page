@@ -1,0 +1,73 @@
+body{
+    background-image: url(photo/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
+
+.content{
+    width: 400px;
+    height: 599px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px
+}
+
+.font {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login{
+    color: #670167;
+}
+
+
+.input{
+    width: 50%;
+    height: 30px;
+    margin: 5px 5px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: 1px solid #fae7fa;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.pass{
+    font-size: smaller;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: gray;
+}
+
+.btn{
+    padding: 7px 60px;
+    background-color: #d947d8;
+    border: 0 solid #fae7fa ;
+    border-radius: 20px;
+    color: #fae7fa;
+    margin:  50px auto;
+    cursor: pointer;
+}
+
+ul{
+margin-right: 40px;
+margin-bottom: 60px;
+}
+
+ul>li{
+    display: inline;
+}
+
+ul>li>img{
+    height: 25px;
+    width: auto;
+    margin-left: 5px;
+}
+
+.signin{
+    margin-top: 30px;
+}
